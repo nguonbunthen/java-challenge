@@ -1,0 +1,6 @@
+//Practice:
+        String data= "<html><head>Hello World</head><title>My Web Page</title><body>IT Y2</body></html>";
+        //write a program print 
+        //1. data in head
+        //2. data in title
+        //3. data in body
