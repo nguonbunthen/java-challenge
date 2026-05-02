@@ -36,37 +36,37 @@ public class ex6 {
             int choice = sc.nextInt();
 
             switch (choice) {
-                case 1:
-                    System.out.print("Please input index: ");
-                    int showIndex = sc.nextInt();
-                    if (isValidIndex(showIndex, numbers.length)) {
-                        System.out.println("Value at index " + showIndex + ": " + numbers[showIndex]);
-                    } else {
-                        System.out.println("Invalid index.");
-                    }
-                    break;
-                case 2:
-                    System.out.print("Please input index: ");
-                    int updateIndex = sc.nextInt();
-                    if (isValidIndex(updateIndex, numbers.length)) {
-                        System.out.print("Please input value: ");
-                        int value = sc.nextInt();
-                        numbers[updateIndex] = value;
-                        System.out.println("Value updated successfully.");
-                    } else {
-                        System.out.println("Invalid index.");
-                    }
-                    break;
-                case 3:
-                    showAll(numbers);
-                    break;
-                case 4:
-                    running = false;
-                    System.out.println("Program ended.");
-                    break;
-                default:
-                    System.out.println("Invalid option.");
-                    break;
+            case 1:
+                System.out.print("Please input index: ");
+                int showIndex = sc.nextInt();
+                if (isValidIndex(showIndex, numbers.length)) {
+                    System.out.println("Value at index " + showIndex + ": " + numbers[showIndex]);
+                } else {
+                    System.out.println("Invalid index.");
+                }
+                break;
+            case 2:
+                System.out.print("Please input index: ");
+                int updateIndex = sc.nextInt();
+                if (isValidIndex(updateIndex, numbers.length)) {
+                    System.out.print("Please input value: ");
+                    int value = sc.nextInt();
+                    numbers[updateIndex] = value;
+                    System.out.println("Value updated successfully.");
+                } else {
+                    System.out.println("Invalid index.");
+                }
+                break;
+            case 3:
+                showAll(numbers);
+                break;
+            case 4:
+                running = false;
+                System.out.println("Program ended.");
+                break;
+            default:
+                System.out.println("Invalid option.");
+                break;
             }
         }
 

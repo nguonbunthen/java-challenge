@@ -28,11 +28,11 @@ public class MenuCalculator {
                 int b = sc.nextInt();
 
                 if (choice == 1)
-                    System.out.println("Result =  " + (a + b)); // add
+                System.out.println("Result =  " + (a + b)); // add
                 else if (choice == 2)
-                    System.out.println("Result = " + (a - b)); // subtract
+                System.out.println("Result = " + (a - b)); // subtract
                 else if (choice == 3)
-                    System.out.println("Result" + (a * b)); // multiply
+                System.out.println("Result" + (a * b)); // multiply
             }
         } while (choice != 4); // repeat until exit
 

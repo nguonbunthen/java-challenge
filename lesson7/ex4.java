@@ -17,7 +17,7 @@ public class ex4 {
         double getArea() {
             double semiPerimeter = getPerimeter() / 2;
             return Math.sqrt(semiPerimeter * (semiPerimeter - side1)
-                    * (semiPerimeter - side2) * (semiPerimeter - side3));
+            * (semiPerimeter - side2) * (semiPerimeter - side3));
         }
     }
 

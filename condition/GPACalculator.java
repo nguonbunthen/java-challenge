@@ -17,13 +17,13 @@ public class GPACalculator {
             char grade = sc.next().charAt(0);
 
             if (grade == 'A')
-                totalPoints += 4;
+            totalPoints += 4;
             else if (grade == 'B')
-                totalPoints += 3;
+            totalPoints += 3;
             else if (grade == 'C')
-                totalPoints += 2;
+            totalPoints += 2;
             else
-                totalPoints += 0; // F
+            totalPoints += 0; // F
 
         }
         double gpa = (double) totalPoints / n; // calculate

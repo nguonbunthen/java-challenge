@@ -13,6 +13,6 @@ public class ex1 {
             System.out.println("You're not eligile to vote.");
         }
         sc.close();
-    
+
     }
 }

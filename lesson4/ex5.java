@@ -1,5 +1,5 @@
 public class ex5 {
-     public static void main(String[] args) {
+    public static void main(String[] args) {
 
         int score = 85;   // ប្ដូរពិន្ទុតាមចិត្ត
 

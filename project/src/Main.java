@@ -20,20 +20,20 @@ public class Main {
 
             switch (choice) {
 
-                case 1:
-                    showOfficialRate();
-                    break;
+            case 1:
+                showOfficialRate();
+                break;
 
-                case 2:
-                    convertUSD(sc);
-                    break;
+            case 2:
+                convertUSD(sc);
+                break;
 
-                case 3:
-                    System.out.println("Exit Program");
-                    break;
+            case 3:
+                System.out.println("Exit Program");
+                break;
 
-                default:
-                    System.out.println("Invalid choice!");
+            default:
+                System.out.println("Invalid choice!");
             }
 
         } while (choice != 3);
